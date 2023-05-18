@@ -1,0 +1,25 @@
+.flex {
+    display: flex;
+    inset: 0;
+    padding: 0;
+    margin: 0;
+
+}
+
+.column {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+.flex-1 {
+    flex: 1;
+}
+
+.w-75 {
+    width: 750px;
+    max-width: 100vw
+}
+.vh-100 {
+    min-height: 100vh;
+}
